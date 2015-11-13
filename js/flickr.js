@@ -94,7 +94,6 @@ function popup(windowname, imgurl)
 //Saves the current image to gallery array
 function saveToGallery()
 {
-	currentImg.className = "";
 	savedGallery.push(currentImg);
 }
 
